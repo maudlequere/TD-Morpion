@@ -1,0 +1,51 @@
+html{
+    width: 100%;
+    height: 100%;
+    background-color: blanchedalmond;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+}
+
+header p{
+    display: inline;
+    margin: 0px 42%;
+}
+
+/* Contenu */
+main{
+    display: flex;
+    justify-content: center;
+    padding: 2% 10%;
+}
+
+/* Tableau */
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(243, 239, 233);
+}
+
+.symbole{
+    font-size: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Boutons et score */
+
+#action {
+    padding-left: 2%;
+}
